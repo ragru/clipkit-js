@@ -18,3 +18,7 @@
   });
 </script>
 ```
+
+## リファレンス
+
+https://clipkit-js.pages.dev/
