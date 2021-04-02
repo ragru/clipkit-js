@@ -1,0 +1,54 @@
+{
+  "coverage": "42.5%",
+  "expectCount": 40,
+  "actualCount": 17,
+  "files": {
+    "js/cache.js": {
+      "expectCount": 5,
+      "actualCount": 1,
+      "undocumentLines": [
+        6,
+        7,
+        10,
+        19
+      ]
+    },
+    "js/clipkit-client.js": {
+      "expectCount": 18,
+      "actualCount": 2,
+      "undocumentLines": [
+        3,
+        19,
+        20,
+        23,
+        35,
+        48,
+        65,
+        79,
+        93,
+        103,
+        112,
+        121,
+        132,
+        142,
+        151,
+        162
+      ]
+    },
+    "js/clipkit.ts": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        20,
+        23
+      ]
+    },
+    "js/user.ts": {
+      "expectCount": 12,
+      "actualCount": 11,
+      "undocumentLines": [
+        15
+      ]
+    }
+  }
+}

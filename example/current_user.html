@@ -1,0 +1,17 @@
+<html>
+    <meta charset="utf-8" />
+    <title>Example for Clipkit.js</title>
+    <script src="../dist/clipkit-1.0.min.js"></script>
+  </head>
+  <body>
+    <h1>Example for Clipkit.js</h1>
+    <h2>ログイン中のユーザー情報</h2>
+    <script>
+      var clipkit = new Clipkit('https://qa.cloud.clipkit.co/');
+      clipkit.currentUser().then((user) => {
+        console.log(user);
+        console.log(user.hasRole('admin'))
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1606 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "js/cache.js",
+    "content": "/**\n * @ignore\n */\n\nexport default class Cache {\n  constructor() {\n    this.cacheStore = {};\n  }\n\n  write(key, value, ttl = 0) {\n    console.log(`Write cache: ${key}`);\n    this.cacheStore[key] = {\n      value: value,\n      expiresIn: new Date().getTime() + ttl * 100,\n    };\n    return true;\n  }\n\n  read(key) {\n    if (key in this.cacheStore) {\n      const expiresIn = this.cacheStore[key].expiresIn;\n      if (!expiresIn || new Date().getTime() <= expiresIn) {\n        console.log(`HIT cache: ${key}`);\n        return this.cacheStore[key].value;\n      } else {\n        console.log(`Expired cache: ${key}`);\n      }\n    }\n    return null;\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/miyamae/Projects/ragru/clipkitjs/src/js/cache.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "Cache",
+    "memberof": "js/cache.js",
+    "static": true,
+    "longname": "js/cache.js~Cache",
+    "access": "public",
+    "export": true,
+    "importPath": "./js/cache.js",
+    "importStyle": "Cache",
+    "description": "",
+    "lineNumber": 5,
+    "ignore": true,
+    "interface": false
+  },
+  {
+    "__docId__": 50,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "js/cache.js~Cache",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/cache.js~Cache#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "name": "cacheStore",
+    "memberof": "js/cache.js~Cache",
+    "static": false,
+    "longname": "js/cache.js~Cache#cacheStore",
+    "access": "public",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "method",
+    "name": "write",
+    "memberof": "js/cache.js~Cache",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/cache.js~Cache#write",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "value",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "ttl",
+        "optional": true,
+        "types": [
+          "number"
+        ],
+        "defaultRaw": 0,
+        "defaultValue": "0"
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "method",
+    "name": "read",
+    "memberof": "js/cache.js~Cache",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/cache.js~Cache#read",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "js/clipkit-client.js",
+    "content": "import Cache from './cache';\n\nconst axios = require('axios').default;\n\n/**\n * @ignore\n */\nexport const appConfig = {\n  site: process.env.SITE,\n  apiEndPoint: process.env.API_ENDPOINT,\n  apiId: process.env.API_ID,\n  apiSecret: process.env.API_SECRET,\n};\n\n/**\n * @ignore\n */\nexport default class ClipkitClient {\n  constructor() {\n    this.cache = new Cache();\n  }\n\n  urlWithQuery(url, params = {}) {\n    let absoluteUrl = url;\n    if (Object.keys(params).length > 0) {\n      const prms = [];\n      for (let key in params) {\n        prms.push([key, params[key]].join('='));\n      }\n      absoluteUrl = [url, prms.join('&')].join('?');\n    }\n    return absoluteUrl;\n  }\n\n  async send(method, url, params = {}, headers = {}) {\n    const absoluteUrl = this.urlWithQuery(url, params);\n    console.log(`${method} ${absoluteUrl}`);\n    headers['Accept'] = 'application/json';\n    try {\n      const response = await axios({ url: absoluteUrl, method: method, headers: headers });\n      return response.data;\n    } catch (error) {\n      console.log(error);\n      return null;\n    }\n  }\n\n  async getAccessToken() {\n    let accessToken = this.cache.read('accessToken');\n    if (accessToken === null) {\n      const url = appConfig.apiEndPoint + '/oauth/token';\n      const params = {\n        grant_type: 'client_credentials',\n        scope: 'public',\n        client_id: appConfig.apiId,\n        client_secret: appConfig.apiSecret,\n      };\n      const data = await this.send('POST', url, params);\n      accessToken = data.access_token;\n      this.cache.write('accessToken', accessToken, 3600);\n    }\n    return accessToken;\n  }\n\n  async get(options = {}) {\n    const accessToken = await this.getAccessToken();\n    const headers = {\n      Authorization: 'Bearer ' + accessToken,\n    };\n    const cacheKey = this.urlWithQuery(options.url, options.params);\n    let data = this.cache.read(cacheKey);\n    if (data == null) {\n      data = await this.send('GET', options.url, options.params, headers);\n      this.cache.write(cacheKey, data, options['ttl']);\n    }\n    return data;\n  }\n\n  async getSite() {\n    const sites = await this.get({\n      url: appConfig.apiEndPoint + '/v1/sites',\n      ttl: 600,\n    });\n    let site = null;\n    sites.forEach((s) => {\n      if (s.name === appConfig.site) {\n        site = s;\n      }\n    });\n    return site;\n  }\n\n  async getArticles(params = {}) {\n    const site = await this.getSite();\n    const articles = await this.get({\n      url: site._links.articles.href,\n      params: params,\n      ttl: 600,\n    });\n    return articles;\n  }\n\n  async getArticle(id) {\n    const site = await this.getSite();\n    const article = await this.get({\n      url: appConfig.apiEndPoint + '/v1/sites/' + site.id + '/articles/' + id,\n      ttl: 600,\n    });\n    return article;\n  }\n\n  async getCategories() {\n    const site = await this.getSite();\n    const categories = await this.get({\n      url: site._links.categories.href,\n      ttl: 600,\n    });\n    return categories;\n  }\n\n  async getCategory(categoryName) {\n    const categories = await this.getCategories();\n    const category = null;\n    categories.forEach((c) => {\n      if (c.name === categoryName) {\n        category = c;\n      }\n    });\n    return category;\n  }\n\n  async getCategoryArticles(categoryName, params = {}) {\n    const category = await this.getCategory(categoryName);\n    const articles = await this.get({\n      url: category._links.articles.href,\n      params: params,\n      ttl: 600,\n    });\n    return articles;\n  }\n\n  async getTags() {\n    const site = await this.getSite();\n    const tags = await this.get({\n      url: site._links.tags.href,\n      ttl: 600,\n    });\n    return tags;\n  }\n\n  async getTag(tagName) {\n    const tags = await this.getTags();\n    const tag = null;\n    tags.forEach((c) => {\n      if (c.name === tagName) {\n        tag = c;\n      }\n    });\n    return tag;\n  }\n\n  async getTagArticles(tagName, params = {}) {\n    const tag = await this.getTag(tagName);\n    const articles = await this.get({\n      url: tag._links.articles.href,\n      params: params,\n      ttl: 600,\n    });\n    return articles;\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/miyamae/Projects/ragru/clipkitjs/src/js/clipkit-client.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "name": "axios",
+    "memberof": "js/clipkit-client.js",
+    "static": true,
+    "longname": "js/clipkit-client.js~axios",
+    "access": "public",
+    "export": false,
+    "importPath": "./js/clipkit-client.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "variable",
+    "name": "appConfig",
+    "memberof": "js/clipkit-client.js",
+    "static": true,
+    "longname": "js/clipkit-client.js~appConfig",
+    "access": "public",
+    "export": true,
+    "importPath": "./js/clipkit-client.js",
+    "importStyle": "{appConfig}",
+    "description": "",
+    "lineNumber": 8,
+    "ignore": true,
+    "type": {
+      "types": [
+        "{\"site\": *, \"apiEndPoint\": *, \"apiId\": *, \"apiSecret\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "class",
+    "name": "ClipkitClient",
+    "memberof": "js/clipkit-client.js",
+    "static": true,
+    "longname": "js/clipkit-client.js~ClipkitClient",
+    "access": "public",
+    "export": true,
+    "importPath": "./js/clipkit-client.js",
+    "importStyle": "ClipkitClient",
+    "description": "",
+    "lineNumber": 18,
+    "ignore": true,
+    "interface": false
+  },
+  {
+    "__docId__": 58,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "member",
+    "name": "cache",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#cache",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "urlWithQuery",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#urlWithQuery",
+    "access": "public",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "params": [
+      {
+        "name": "url",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "params",
+        "optional": true,
+        "types": [
+          "{}"
+        ],
+        "defaultRaw": {},
+        "defaultValue": "{}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "method",
+    "name": "send",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#send",
+    "access": "public",
+    "description": null,
+    "lineNumber": 35,
+    "undocument": true,
+    "params": [
+      {
+        "name": "method",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "url",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "params",
+        "optional": true,
+        "types": [
+          "{}"
+        ],
+        "defaultRaw": {},
+        "defaultValue": "{}"
+      },
+      {
+        "name": "headers",
+        "optional": true,
+        "types": [
+          "{}"
+        ],
+        "defaultRaw": {},
+        "defaultValue": "{}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "method",
+    "name": "getAccessToken",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#getAccessToken",
+    "access": "public",
+    "description": null,
+    "lineNumber": 48,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "method",
+    "name": "get",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#get",
+    "access": "public",
+    "description": null,
+    "lineNumber": 65,
+    "undocument": true,
+    "params": [
+      {
+        "name": "options",
+        "optional": true,
+        "types": [
+          "{}"
+        ],
+        "defaultRaw": {},
+        "defaultValue": "{}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "getSite",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#getSite",
+    "access": "public",
+    "description": null,
+    "lineNumber": 79,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "method",
+    "name": "getArticles",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#getArticles",
+    "access": "public",
+    "description": null,
+    "lineNumber": 93,
+    "undocument": true,
+    "params": [
+      {
+        "name": "params",
+        "optional": true,
+        "types": [
+          "{}"
+        ],
+        "defaultRaw": {},
+        "defaultValue": "{}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "method",
+    "name": "getArticle",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#getArticle",
+    "access": "public",
+    "description": null,
+    "lineNumber": 103,
+    "undocument": true,
+    "params": [
+      {
+        "name": "id",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "method",
+    "name": "getCategories",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#getCategories",
+    "access": "public",
+    "description": null,
+    "lineNumber": 112,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "method",
+    "name": "getCategory",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#getCategory",
+    "access": "public",
+    "description": null,
+    "lineNumber": 121,
+    "undocument": true,
+    "params": [
+      {
+        "name": "categoryName",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "method",
+    "name": "getCategoryArticles",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#getCategoryArticles",
+    "access": "public",
+    "description": null,
+    "lineNumber": 132,
+    "undocument": true,
+    "params": [
+      {
+        "name": "categoryName",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "params",
+        "optional": true,
+        "types": [
+          "{}"
+        ],
+        "defaultRaw": {},
+        "defaultValue": "{}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "method",
+    "name": "getTags",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#getTags",
+    "access": "public",
+    "description": null,
+    "lineNumber": 142,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "method",
+    "name": "getTag",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#getTag",
+    "access": "public",
+    "description": null,
+    "lineNumber": 151,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tagName",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "method",
+    "name": "getTagArticles",
+    "memberof": "js/clipkit-client.js~ClipkitClient",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "js/clipkit-client.js~ClipkitClient#getTagArticles",
+    "access": "public",
+    "description": null,
+    "lineNumber": 162,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tagName",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "params",
+        "optional": true,
+        "types": [
+          "{}"
+        ],
+        "defaultRaw": {},
+        "defaultValue": "{}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "file",
+    "name": "js/clipkit.ts",
+    "content": "import camelcaseKeys from 'camelcase-keys';\nimport axios from 'axios';\nimport User from './user';\n\n/**\n * @desc ClipkitフロントエンドAPIライブラリ\n */\nexport default class Clipkit {\n  _siteRoot: string;\n  _currentUserData: object;\n\n  /**\n   * @example\n   * var clipkit = new Clipkit();\n   * @param {string} siteRoot - サイトのルートURL（デフォルト：/）\n   */\n  constructor(siteRoot: string = '/') {\n    this._siteRoot = siteRoot;\n    //this.currentUserData = null;\n    // for debug\n    this._currentUserData = {\n      key: 'Fwvvw',\n      email: 'miyamae@ragru.com',\n      signId: null,\n      screenName: 'miyamae',\n      url: 'https://qa.cloud.clipkit.co/authors/Fwvvw',\n      kinds: ['1', '2'],\n      roles: ['admin', 'webmaster'],\n    };\n  }\n\n  /**\n   * @desc ログイン中のユーザーの情報を取得します\n   * ※ Cookieを送信するためサイトの同一ドメイン上で実行する必要があります\n   * @example\n   * clipkit.currentUser().then((user) => {\n   *   if (user) {\n   *     console.log('You are ' + user.screenName);\n   *   } else {\n   *     console.log('You are a guest.');\n   *   }\n   * });\n   * @return {Promise<User>} ログイン中のUser（未ログインの場合はNULL）\n   */\n  async currentUser(): Promise<User> {\n    if (!this._currentUserData) {\n      const response = await axios.get(`${this._siteRoot}users/me.json`);\n      this._currentUserData = camelcaseKeys(response.data.user);\n    }\n    return new User(this._currentUserData);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/miyamae/Projects/ragru/clipkitjs/src/js/clipkit.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 74,
+    "kind": "class",
+    "name": "Clipkit",
+    "memberof": "js/clipkit.ts",
+    "static": true,
+    "longname": "js/clipkit.ts~Clipkit",
+    "access": "public",
+    "export": true,
+    "importPath": "./js/clipkit.ts",
+    "importStyle": "Clipkit",
+    "description": "ClipkitフロントエンドAPIライブラリ",
+    "lineNumber": 13,
+    "interface": false
+  },
+  {
+    "__docId__": 75,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "js/clipkit.ts~Clipkit",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/clipkit.ts~Clipkit#constructor",
+    "access": "public",
+    "description": "",
+    "examples": [
+      "var clipkit = new Clipkit();"
+    ],
+    "lineNumber": 19,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "siteRoot",
+        "description": "サイトのルートURL（デフォルト：/）"
+      }
+    ]
+  },
+  {
+    "__docId__": 76,
+    "kind": "member",
+    "name": "_siteRoot",
+    "memberof": "js/clipkit.ts~Clipkit",
+    "static": false,
+    "longname": "js/clipkit.ts~Clipkit#_siteRoot",
+    "access": "private",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 77,
+    "kind": "member",
+    "name": "_currentUserData",
+    "memberof": "js/clipkit.ts~Clipkit",
+    "static": false,
+    "longname": "js/clipkit.ts~Clipkit#_currentUserData",
+    "access": "private",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"key\": string, \"email\": string, \"signId\": *, \"screenName\": string, \"url\": string, \"kinds\": *, \"roles\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "method",
+    "name": "currentUser",
+    "memberof": "js/clipkit.ts~Clipkit",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "js/clipkit.ts~Clipkit#currentUser",
+    "access": "public",
+    "description": "ログイン中のユーザーの情報を取得します\n※ Cookieを送信するためサイトの同一ドメイン上で実行する必要があります",
+    "examples": [
+      "clipkit.currentUser().then((user) => {\n  if (user) {\n    console.log('You are ' + user.screenName);\n  } else {\n    console.log('You are a guest.');\n  }\n});"
+    ],
+    "lineNumber": 54,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<User>"
+      ],
+      "spread": false,
+      "description": "ログイン中のUser（未ログインの場合はNULL）"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 80,
+    "kind": "file",
+    "name": "js/user.ts",
+    "content": "/**\n * @desc ユーザー情報\n */\nexport default class User {\n  data: object;\n\n  /**\n   * @ignore\n   */\n  constructor(data: object) {\n    this.data = data;\n  }\n\n  /**\n   * @return {string} Permalink ID\n   */\n  get key(): string {\n    return this.data['key'];\n  }\n\n  /**\n   * @return {string} E-mail\n   */\n  get email(): string {\n    return this.data['email'];\n  }\n\n  /**\n   * @return {string} 表示名\n   */\n  get screenName(): string {\n    return this.data['screenName'];\n  }\n\n  /**\n   * @return {string} E-mail以外のログインID\n   */\n  get signId(): string {\n    return this.data['signId'];\n  }\n\n  /**\n   * @return {string} ライターページURL\n   */\n  get url(): string {\n    return this.data['url'];\n  }\n\n  /**\n   * @return {Array<string>} ロール名の配列\n   */\n  get roles(): Array<string> {\n    return this.data['roles'];\n  }\n\n  /**\n   * @return {Array<string>} ユーザー種別コードの配列\n   */\n  get kinds(): Array<string> {\n    return this.data['kinds'];\n  }\n\n  /**\n   * @desc 指定ロールに属しているかどうか\n   * @param {string} roleName - ロール名(Name)\n   * @return {boolean} 指定ロールに属していたらtrue\n   */\n  hasRole(roleName: string): boolean {\n    return this.roles.includes(roleName);\n  }\n\n  /**\n   * @desc 指定種別に属しているかどうか\n   * @param {string} kindCode - ユーザー種別コード\n   * @return {boolean} 指定種別に属していたらtrue\n   */\n  hasKind(kindCode: string): boolean {\n    return this.kinds.includes(kindCode);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/miyamae/Projects/ragru/clipkitjs/src/js/user.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 81,
+    "kind": "class",
+    "name": "User",
+    "memberof": "js/user.ts",
+    "static": true,
+    "longname": "js/user.ts~User",
+    "access": "public",
+    "export": true,
+    "importPath": "./js/user.ts",
+    "importStyle": "User",
+    "description": "ユーザー情報",
+    "lineNumber": 10,
+    "interface": false
+  },
+  {
+    "__docId__": 82,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "js/user.ts~User",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/user.ts~User#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 14,
+    "ignore": true
+  },
+  {
+    "__docId__": 83,
+    "kind": "member",
+    "name": "data",
+    "memberof": "js/user.ts~User",
+    "static": false,
+    "longname": "js/user.ts~User#data",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "get",
+    "name": "key",
+    "memberof": "js/user.ts~User",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/user.ts~User#key",
+    "access": "public",
+    "description": "",
+    "lineNumber": 28,
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "Permalink ID"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 85,
+    "kind": "get",
+    "name": "email",
+    "memberof": "js/user.ts~User",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/user.ts~User#email",
+    "access": "public",
+    "description": "",
+    "lineNumber": 42,
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "E-mail"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "get",
+    "name": "screenName",
+    "memberof": "js/user.ts~User",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/user.ts~User#screenName",
+    "access": "public",
+    "description": "",
+    "lineNumber": 56,
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "表示名"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "get",
+    "name": "signId",
+    "memberof": "js/user.ts~User",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/user.ts~User#signId",
+    "access": "public",
+    "description": "",
+    "lineNumber": 70,
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "E-mail以外のログインID"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 88,
+    "kind": "get",
+    "name": "url",
+    "memberof": "js/user.ts~User",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/user.ts~User#url",
+    "access": "public",
+    "description": "",
+    "lineNumber": 84,
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "ライターページURL"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "get",
+    "name": "roles",
+    "memberof": "js/user.ts~User",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/user.ts~User#roles",
+    "access": "public",
+    "description": "",
+    "lineNumber": 98,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Array<string>"
+      ],
+      "spread": false,
+      "description": "ロール名の配列"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "get",
+    "name": "kinds",
+    "memberof": "js/user.ts~User",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/user.ts~User#kinds",
+    "access": "public",
+    "description": "",
+    "lineNumber": 112,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Array<string>"
+      ],
+      "spread": false,
+      "description": "ユーザー種別コードの配列"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "method",
+    "name": "hasRole",
+    "memberof": "js/user.ts~User",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/user.ts~User#hasRole",
+    "access": "public",
+    "description": "指定ロールに属しているかどうか",
+    "lineNumber": 130,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "roleName",
+        "description": "ロール名(Name)"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "指定ロールに属していたらtrue"
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "method",
+    "name": "hasKind",
+    "memberof": "js/user.ts~User",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/user.ts~User#hasKind",
+    "access": "public",
+    "description": "指定種別に属しているかどうか",
+    "lineNumber": 148,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "kindCode",
+        "description": "ユーザー種別コード"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "指定種別に属していたらtrue"
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# Clipkit フロントエンド API ライブラリ\n\n## 使用例\n\n### ログイン状態を判定する\n\n```html\n<script src=\"clipkit-1.0.min.js\"></script>\n\n<script>\n  var clipkit = new Clipkit();\n  clipkit.currentUser().then((user) => {\n    if (user) {\n      console.log('You are ' + user.screenName);\n    } else {\n      console.log('You are a guest.');\n    }\n  });\n</script>\n```\n",
+    "longname": "/Users/miyamae/Projects/ragru/clipkitjs/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"scripts\": {\n    \"build\": \"webpack\",\n    \"watch\": \"webpack -w\",\n    \"docs\": \"esdoc -c esdoc.json\"\n  },\n  \"dependencies\": {\n    \"axios\": \"^0.21.1\",\n    \"camelcase-keys\": \"^6.2.2\"\n  },\n  \"devDependencies\": {\n    \"@typescript-eslint/eslint-plugin\": \"^4.20.0\",\n    \"@typescript-eslint/parser\": \"^4.20.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"esdoc-typescript-plugin\": \"^1.0.1\",\n    \"eslint\": \"^7.23.0\",\n    \"eslint-config-airbnb\": \"^18.2.1\",\n    \"eslint-config-prettier\": \"^8.1.0\",\n    \"eslint-plugin-prettier\": \"^3.3.1\",\n    \"prettier\": \"^2.2.1\",\n    \"ts-loader\": \"^8.1.0\",\n    \"typescript\": \"^4.2.3\",\n    \"webpack\": \"^5.30.0\",\n    \"webpack-cli\": \"^4.6.0\"\n  },\n  \"private\": true\n}\n",
+    "longname": "/Users/miyamae/Projects/ragru/clipkitjs/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">js/clipkit-client.js</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/js/clipkit.ts~Clipkit.html">Clipkit</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/js/user.ts~User.html">User</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">js/clipkit-client.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import Cache from &apos;./cache&apos;;
+
+const axios = require(&apos;axios&apos;).default;
+
+/**
+ * @ignore
+ */
+export const appConfig = {
+  site: process.env.SITE,
+  apiEndPoint: process.env.API_ENDPOINT,
+  apiId: process.env.API_ID,
+  apiSecret: process.env.API_SECRET,
+};
+
+/**
+ * @ignore
+ */
+export default class ClipkitClient {
+  constructor() {
+    this.cache = new Cache();
+  }
+
+  urlWithQuery(url, params = {}) {
+    let absoluteUrl = url;
+    if (Object.keys(params).length &gt; 0) {
+      const prms = [];
+      for (let key in params) {
+        prms.push([key, params[key]].join(&apos;=&apos;));
+      }
+      absoluteUrl = [url, prms.join(&apos;&amp;&apos;)].join(&apos;?&apos;);
+    }
+    return absoluteUrl;
+  }
+
+  async send(method, url, params = {}, headers = {}) {
+    const absoluteUrl = this.urlWithQuery(url, params);
+    console.log(`${method} ${absoluteUrl}`);
+    headers[&apos;Accept&apos;] = &apos;application/json&apos;;
+    try {
+      const response = await axios({ url: absoluteUrl, method: method, headers: headers });
+      return response.data;
+    } catch (error) {
+      console.log(error);
+      return null;
+    }
+  }
+
+  async getAccessToken() {
+    let accessToken = this.cache.read(&apos;accessToken&apos;);
+    if (accessToken === null) {
+      const url = appConfig.apiEndPoint + &apos;/oauth/token&apos;;
+      const params = {
+        grant_type: &apos;client_credentials&apos;,
+        scope: &apos;public&apos;,
+        client_id: appConfig.apiId,
+        client_secret: appConfig.apiSecret,
+      };
+      const data = await this.send(&apos;POST&apos;, url, params);
+      accessToken = data.access_token;
+      this.cache.write(&apos;accessToken&apos;, accessToken, 3600);
+    }
+    return accessToken;
+  }
+
+  async get(options = {}) {
+    const accessToken = await this.getAccessToken();
+    const headers = {
+      Authorization: &apos;Bearer &apos; + accessToken,
+    };
+    const cacheKey = this.urlWithQuery(options.url, options.params);
+    let data = this.cache.read(cacheKey);
+    if (data == null) {
+      data = await this.send(&apos;GET&apos;, options.url, options.params, headers);
+      this.cache.write(cacheKey, data, options[&apos;ttl&apos;]);
+    }
+    return data;
+  }
+
+  async getSite() {
+    const sites = await this.get({
+      url: appConfig.apiEndPoint + &apos;/v1/sites&apos;,
+      ttl: 600,
+    });
+    let site = null;
+    sites.forEach((s) =&gt; {
+      if (s.name === appConfig.site) {
+        site = s;
+      }
+    });
+    return site;
+  }
+
+  async getArticles(params = {}) {
+    const site = await this.getSite();
+    const articles = await this.get({
+      url: site._links.articles.href,
+      params: params,
+      ttl: 600,
+    });
+    return articles;
+  }
+
+  async getArticle(id) {
+    const site = await this.getSite();
+    const article = await this.get({
+      url: appConfig.apiEndPoint + &apos;/v1/sites/&apos; + site.id + &apos;/articles/&apos; + id,
+      ttl: 600,
+    });
+    return article;
+  }
+
+  async getCategories() {
+    const site = await this.getSite();
+    const categories = await this.get({
+      url: site._links.categories.href,
+      ttl: 600,
+    });
+    return categories;
+  }
+
+  async getCategory(categoryName) {
+    const categories = await this.getCategories();
+    const category = null;
+    categories.forEach((c) =&gt; {
+      if (c.name === categoryName) {
+        category = c;
+      }
+    });
+    return category;
+  }
+
+  async getCategoryArticles(categoryName, params = {}) {
+    const category = await this.getCategory(categoryName);
+    const articles = await this.get({
+      url: category._links.articles.href,
+      params: params,
+      ttl: 600,
+    });
+    return articles;
+  }
+
+  async getTags() {
+    const site = await this.getSite();
+    const tags = await this.get({
+      url: site._links.tags.href,
+      ttl: 600,
+    });
+    return tags;
+  }
+
+  async getTag(tagName) {
+    const tags = await this.getTags();
+    const tag = null;
+    tags.forEach((c) =&gt; {
+      if (c.name === tagName) {
+        tag = c;
+      }
+    });
+    return tag;
+  }
+
+  async getTagArticles(tagName, params = {}) {
+    const tag = await this.getTag(tagName);
+    const articles = await this.get({
+      url: tag._links.articles.href,
+      params: params,
+      ttl: 600,
+    });
+    return articles;
+  }
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
