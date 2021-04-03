@@ -54,17 +54,7 @@ export default class Clipkit {
    */
   constructor(siteRoot: string = &apos;/&apos;) {
     this._siteRoot = siteRoot;
-    //this.currentUserData = null;
-    // for debug
-    this._currentUserData = {
-      key: &apos;Fwvvw&apos;,
-      email: &apos;miyamae@ragru.com&apos;,
-      signId: null,
-      screenName: &apos;miyamae&apos;,
-      url: &apos;https://qa.cloud.clipkit.co/authors/Fwvvw&apos;,
-      kinds: [&apos;1&apos;, &apos;2&apos;],
-      roles: [&apos;admin&apos;, &apos;webmaster&apos;],
-    };
+    this._currentUserData = null;
   }
 
   /**

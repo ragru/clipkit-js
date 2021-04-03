@@ -1173,7 +1173,7 @@
     "__docId__": 73,
     "kind": "file",
     "name": "js/clipkit.ts",
-    "content": "import camelcaseKeys from 'camelcase-keys';\nimport axios from 'axios';\nimport User from './user';\n\n/**\n * @desc ClipkitフロントエンドAPIライブラリ\n */\nexport default class Clipkit {\n  _siteRoot: string;\n  _currentUserData: object;\n\n  /**\n   * @example\n   * var clipkit = new Clipkit();\n   * @param {string} siteRoot - サイトのルートURL（デフォルト：/）\n   */\n  constructor(siteRoot: string = '/') {\n    this._siteRoot = siteRoot;\n    //this.currentUserData = null;\n    // for debug\n    this._currentUserData = {\n      key: 'Fwvvw',\n      email: 'miyamae@ragru.com',\n      signId: null,\n      screenName: 'miyamae',\n      url: 'https://qa.cloud.clipkit.co/authors/Fwvvw',\n      kinds: ['1', '2'],\n      roles: ['admin', 'webmaster'],\n    };\n  }\n\n  /**\n   * @desc ログイン中のユーザーの情報を取得します\n   * ※ Cookieを送信するためサイトの同一ドメイン上で実行する必要があります\n   * @example\n   * clipkit.currentUser().then((user) => {\n   *   if (user) {\n   *     console.log('You are ' + user.screenName);\n   *   } else {\n   *     console.log('You are a guest.');\n   *   }\n   * });\n   * @return {Promise<User>} ログイン中のUser（未ログインの場合はNULL）\n   */\n  async currentUser(): Promise<User> {\n    if (!this._currentUserData) {\n      const response = await axios.get(`${this._siteRoot}users/me.json`);\n      this._currentUserData = camelcaseKeys(response.data.user);\n    }\n    return new User(this._currentUserData);\n  }\n}\n",
+    "content": "import camelcaseKeys from 'camelcase-keys';\nimport axios from 'axios';\nimport User from './user';\n\n/**\n * @desc ClipkitフロントエンドAPIライブラリ\n */\nexport default class Clipkit {\n  _siteRoot: string;\n  _currentUserData: object;\n\n  /**\n   * @example\n   * var clipkit = new Clipkit();\n   * @param {string} siteRoot - サイトのルートURL（デフォルト：/）\n   */\n  constructor(siteRoot: string = '/') {\n    this._siteRoot = siteRoot;\n    this._currentUserData = null;\n  }\n\n  /**\n   * @desc ログイン中のユーザーの情報を取得します\n   * ※ Cookieを送信するためサイトの同一ドメイン上で実行する必要があります\n   * @example\n   * clipkit.currentUser().then((user) => {\n   *   if (user) {\n   *     console.log('You are ' + user.screenName);\n   *   } else {\n   *     console.log('You are a guest.');\n   *   }\n   * });\n   * @return {Promise<User>} ログイン中のUser（未ログインの場合はNULL）\n   */\n  async currentUser(): Promise<User> {\n    if (!this._currentUserData) {\n      const response = await axios.get(`${this._siteRoot}users/me.json`);\n      this._currentUserData = camelcaseKeys(response.data.user);\n    }\n    return new User(this._currentUserData);\n  }\n}\n",
     "static": true,
     "longname": "/Users/miyamae/Projects/ragru/clipkitjs/src/js/clipkit.ts",
     "access": "public",
@@ -1249,11 +1249,11 @@
     "longname": "js/clipkit.ts~Clipkit#_currentUserData",
     "access": "private",
     "description": null,
-    "lineNumber": 23,
+    "lineNumber": 21,
     "undocument": true,
     "type": {
       "types": [
-        "{\"key\": string, \"email\": string, \"signId\": *, \"screenName\": string, \"url\": string, \"kinds\": *, \"roles\": *}"
+        "*"
       ]
     }
   },
@@ -1271,7 +1271,7 @@
     "examples": [
       "clipkit.currentUser().then((user) => {\n  if (user) {\n    console.log('You are ' + user.screenName);\n  } else {\n    console.log('You are a guest.');\n  }\n});"
     ],
-    "lineNumber": 54,
+    "lineNumber": 44,
     "return": {
       "nullable": null,
       "types": [
@@ -1589,7 +1589,7 @@
   },
   {
     "kind": "index",
-    "content": "# Clipkit フロントエンド API ライブラリ\n\n## 使用例\n\n### ログイン状態を判定する\n\n```html\n<script src=\"clipkit-1.0.min.js\"></script>\n\n<script>\n  var clipkit = new Clipkit();\n  clipkit.currentUser().then((user) => {\n    if (user) {\n      console.log('You are ' + user.screenName);\n    } else {\n      console.log('You are a guest.');\n    }\n  });\n</script>\n```\n",
+    "content": "# Clipkit フロントエンド API ライブラリ\n\n## 使用例\n\n### ログイン状態を判定する\n\n```html\n<script src=\"https://clipkit-js.pages.dev/dist/clipkit-1.0.min.js\"></script>\n\n<script>\n  var clipkit = new Clipkit();\n  clipkit.currentUser().then((user) => {\n    if (user) {\n      console.log('You are ' + user.screenName);\n    } else {\n      console.log('You are a guest.');\n    }\n  });\n</script>\n```\n\n## リファレンス\n\nhttps://clipkit-js.pages.dev/docs/\n",
     "longname": "/Users/miyamae/Projects/ragru/clipkitjs/README.md",
     "name": "./README.md",
     "static": true,
