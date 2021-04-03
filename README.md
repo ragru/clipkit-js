@@ -5,7 +5,7 @@
 ### ログイン状態を判定する
 
 ```html
-<script src="clipkit-1.0.min.js"></script>
+<script src="https://clipkit-js.pages.dev/dist/clipkit-1.0.min.js"></script>
 
 <script>
   var clipkit = new Clipkit();
@@ -21,4 +21,4 @@
 
 ## リファレンス
 
-https://clipkit-js.pages.dev/
+https://clipkit-js.pages.dev/docs/
